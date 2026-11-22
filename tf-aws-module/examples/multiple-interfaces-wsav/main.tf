@@ -200,8 +200,7 @@ module "wsav" {
 
   boot_config = {
     # For smart_license_registration_token please contact with Cisco sales person.
-    smart_license_registration_token = "YzkwODM1ZjYtZDgwMi00ZDY1LTg4YjItN2I5MzYxNThiYTg0LTE2MzQyMTMx%0AMDg2NDJ8M1ArK1BzVjltS2pqa28yQm94Z0c2M1ZTKzI0M1U0TzZzRU5pQkVL%0AMjVqOD0%3D%0A"
-    # smart_license_registration_token = "ZTEzZGQ5MzYtODA1OS00NjZmLTkxM2ItNmYxMjkzOWEwMzA1LTE2NTUyNzU5%0AMTI3OTh8bGM1UXV2UjBSR1RmdTBxVFN0QXhNRkY5R1NZaFlqUmRyWUFUYStn%0AZ1Rzcz0%3D%0A"
+    smart_license_registration_token = var.smart_license_registration_token
     # This password will be used for performing SSW.
     # The plain password must have following properties:
     # 1. At least one upper (A-Z)

@@ -15,3 +15,9 @@ variable "vsphere_host" {
   type        = string
   sensitive   = false
 }
+
+variable "smart_license_registration_token" {
+  description = "Smart Licensing registration token, supplied through TF_VAR_smart_license_registration_token"
+  type        = string
+  sensitive   = true
+}
